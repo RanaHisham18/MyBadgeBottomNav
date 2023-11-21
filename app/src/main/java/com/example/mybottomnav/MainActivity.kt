@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
        binding.bottomNavigation.getMenu().findItem(R.id.page_1)
         var badge = binding.bottomNavigation.getOrCreateBadge(R.id.page_1)
         badge.isVisible = true
+        badge.number = 1
 
     }
 }
